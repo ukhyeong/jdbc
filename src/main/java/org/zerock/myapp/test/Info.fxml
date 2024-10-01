@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="0.0" arcWidth="0.0" fill="WHITE" height="74.0" layoutX="-6.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="407.0" />
+      <Button fx:id="btn1" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="38.0" text="〈" />
+      <Button fx:id="btn2" layoutX="347.0" layoutY="20.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="38.0" text="홈">
+         <font>
+            <Font name="D2Coding Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fx:id="text1" layoutX="152.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="기본 정보">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="text2" layoutX="13.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="이름">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text3" layoutX="12.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="이메일">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text4" layoutX="12.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="휴대폰번호">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" fill="#dfdfdf7d" height="14.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
+      <Text fx:id="text5" layoutX="19.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="사번">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text6" layoutX="19.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="담당업무">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text7" layoutX="19.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="급여">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text8" layoutX="15.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="수수료">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text9" layoutX="16.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="담당 관리자">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text10" layoutX="16.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="부서 번호">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="label1" layoutX="154.0" layoutY="93.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label2" layoutX="154.0" layoutY="148.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label3" layoutX="154.0" layoutY="203.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label4" layoutX="154.0" layoutY="282.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label5" layoutX="154.0" layoutY="335.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label6" layoutX="154.0" layoutY="388.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label7" layoutX="154.0" layoutY="444.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label8" layoutX="154.0" layoutY="497.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label9" layoutX="154.0" layoutY="547.0" prefHeight="35.0" prefWidth="232.0">
+         <font>
+            <Font name="D2Coding" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
