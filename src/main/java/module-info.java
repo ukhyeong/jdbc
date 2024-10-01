@@ -26,11 +26,7 @@ module org.zerock.myapp {
 	   to javafx.fxml,
 	 	  javafx.controls,
 	      javafx.graphics;
-    
-    opens org.zerock.myapp.seongi
-	   to javafx.fxml,
-	 	  javafx.controls,
-	      javafx.graphics;
+  
 
 //    opens org.zerock.myapp.model
 //       to javafx.base;
